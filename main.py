@@ -45,6 +45,8 @@ def main(page: ft.Page):
     page.update()
     '''
     
+    
+    
 #Ключевий блок виводу
 # Якщо потрібно відкрити в браузері додамо цей параметр - view=ft.AppView.WEB_BROWSER
 ft.app(target=main)
