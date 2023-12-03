@@ -31,6 +31,7 @@ def main(page: ft.Page):
         ft.ElevatedButton(text="Say my name!")
     ]))
     
+    '''
     elements_to_remove = []
     for i in range(10):
         page.controls.append(ft.Text(f"Line {i}"))
@@ -42,6 +43,9 @@ def main(page: ft.Page):
     for index in elements_to_remove:
         page.controls.pop(index)
     page.update()
+    '''
+    
+    
     
 #Ключевий блок виводу
 # Якщо потрібно відкрити в браузері додамо цей параметр - view=ft.AppView.WEB_BROWSER
